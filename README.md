@@ -29,3 +29,6 @@ my_server.send_get()
 
 # Stop the server
 my_server.stop_server()
+
+# Testing
+i have tested this on Pydroid3 and it's working alright 😄👍
