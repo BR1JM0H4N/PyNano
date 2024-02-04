@@ -5,7 +5,9 @@ This is my first repository, it's a python library to create a local http server
 # bash CLI steps to build
 
 $ cd path/to/PyNano/Folder
+
 $ python setup.py sdist
+
 $ pip install dist/PyNano-0.2.tar.gz
 
 # Usage in python:: a simple py file 
@@ -14,6 +16,7 @@ $ pip install dist/PyNano-0.2.tar.gz
 from PyNano import PyServer
 
 directory = "/storage/emulated/0/My_py_server"
+
 port = 8000
 
 # Create an instance of MyServer
